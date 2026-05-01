@@ -1,0 +1,12 @@
+# Exclude all platform app folders — this repo is docs/session tracking only
+store-locator-shopify/
+store-locator-webflow/
+store-locator-WP/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
