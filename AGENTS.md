@@ -1,4 +1,4 @@
-# CLAUDE.md — MPP Store Locator (Root)
+# AGENTS.md — MPP Store Locator (Root)
 
 This is the root-level guidance file for the MPP Store Locator product family.
 
@@ -282,9 +282,9 @@ Anything that tripped up the session or required a workaround.
 Outstanding work, known issues, or what to pick up next.
 ```
 
-**Reading session docs:** Before starting work on a platform, check its session tracking folder for recent docs — they may contain in-progress context not yet reflected in the platform CLAUDE.md.
+**Reading session docs:** Before starting work on a platform, check its session tracking folder for recent docs — they may contain in-progress context not yet reflected in the platform AGENTS.md.
 
-**Updating platform CLAUDE.md:** If a session doc contains a gotcha, fix, or architectural change that is permanent and generally applicable, it should also be promoted into the relevant platform's CLAUDE.md so it persists beyond a single session.
+**Updating platform AGENTS.md:** If a session doc contains a gotcha, fix, or architectural change that is permanent and generally applicable, it should also be promoted into the relevant platform's AGENTS.md so it persists beyond a single session.
 
 ---
 
@@ -301,4 +301,4 @@ All on AWS: `35.183.253.194`
 SSH: `ssh -i ~/.ssh/mppdev_key mppdev@35.183.253.194`  
 WordPress SSH key: `~/.ssh/mppdev_plesk` (different key)
 
-Both Shopify and Webflow run on the same server and must never interfere with each other — they run on separate ports and separate PM2 processes. Deployment details are in each platform's CLAUDE.md.
+Both Shopify and Webflow run on the same server and must never interfere with each other — they run on separate ports and separate PM2 processes. Deployment details are in each platform's AGENTS.md.
